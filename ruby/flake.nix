@@ -2,7 +2,7 @@
   description = "A Ruby development environment";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-25.11"; # <- change me to the latest version (new version released in May and November)
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11"; # <- change me to the latest version (new version released in May and November)
     nixpkgs-ruby = {
       url = "github:bobvanderlinden/nixpkgs-ruby";
       inputs.nixpkgs.follows = "nixpkgs";
